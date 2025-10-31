@@ -1,8 +1,16 @@
 # Penerapan-Spark-dengan-Metode-Naive-Bayes-Pada-Analisis-Sentimen-Pengguna-Go-Jek-di-Google-PlayStore
 
 # Deskripsi Proyek
-Analisis sentimen adalah proses menganalisis teks digital untuk menentukan apakah nada emosional 
-pesan tersebut positif, negatif, atau netral. Naive Bayes adalah algoritma probabilistik yang didasarkan pada Teorema Bayes dengan asumsi bahwa fitur-fitur dalam data bersifat independen satu sama lain. Apache Spark adalah sistem pemrosesan terdistribusi sumber terbuka yang digunakan untuk beban kerja big data.
+Analisis sentimen adalah proses menganalisis teks digital untuk menentukan apakah nada emosional pesan tersebut positif, negatif, atau netral. Secara umum, analisis sentimen dibagi menjadi dua kategori utama, yaitu:
+1. Coarse - grained sentiment analysis: Proses analisis dan klasifikasi orientasi sebuah 
+dokumen secara keseluruhan.
+2. Fined - grained sentiment analysis: Objek yang diklasifikasikan bukan pada level 
+dokumen, melainkan pada level kalimat dalam sebuah dokumen.
+
+Apache Spark adalah sistem pemrosesan terdistribusi sumber terbuka yang digunakan untuk beban kerja big data.
+
+# Model
+Naive Bayes Classification adalah teknik klasifikasi yang didasarkan pada Teorema Bayes dengan asumsi adanya independensi di antara prediktor. Naive Bayes Classifier memprediksi probabilitas masa depan berdasarkan pengalaman sebelumnya yang dikenal juga sebagai Teorema Bayes. Secara sederhana, klasifikasi Naive Bayes mengasumsikan bahwa keberadaan suatu fitur tertentu dalam suatu kelas tidak ergantung pada keberadaan fitur lainnya. 
 
 # Evaluasi Model
 1. K-fold Cross Validation 
